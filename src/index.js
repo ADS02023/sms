@@ -28,7 +28,7 @@ webApp.post('/whatsapp', async(req, res)=>{
    // Extrae el contenido del mensaje del cuerpo de la solicitud POST
    let message = req.body.Body;
    // Extrae el ID del remitente del cuerpo de la solicitud POST
-   let senderID = req.body.From;
+   let senderID = req.body.From;    
 
    // Registra el contenido del mensaje en la consola
    console.log(message);
