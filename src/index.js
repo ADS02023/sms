@@ -36,7 +36,7 @@ webApp.post('/whatsapp', async(req, res)=>{
    console.log(senderID);
 
    //funcion para enviar mensajes devuelta
-   await WA.sendMessage("hola del otro lado.",senderID)
+   await WA.sendMessage("cuando te vea te voy a dar muchos besitos y te voy a mimar mucho :3",senderID)
 });//fin metodo post
 
 //comienzo del server
